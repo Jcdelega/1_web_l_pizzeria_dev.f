@@ -1,3 +1,26 @@
-# We are going to explain some commands we used to develop this little page.
+# We are going to explain some git commands we used to develop this little page.
 The elements shown below are the commands to explain.
 
+1. **git init**
+2. **git add .**
+3. **git commit -m ""**
+4. **git push**
+5. **git pull**
+6. **git remote -v**
+
+## **git init**
+git init, initializes git in the adress where you are, everything inside that specific folder It's on the hands of git
+## **git add .**
+Git add . prepare all the documents inside the foder before taking a picture, after this command you are now in the stagging area, where you code can be checked for your partners
+## **git commit -m ""**
+This command helps you to take the picture and everything you have done is saved, and this is called a version, you can write a message of the changes
+## **git push**
+Once you have done a commit you can push or send your information to your repository or the repository where you work on.
+## **git pull**
+This command pulls all the information that your co-workers have already added at the moment. Refreshes at the lastest version of the project.
+## **git remote -v**
+Show you if you are or not connected to a repository, and tell you wich repository you are connected.
+
+
+***
+![Git Init](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS8AAACmCAMAAAC8yPlOAAAAk1BMVEUAXJoD8uAxmt4AWpkD9+MAWZkAV5gD+OMAVZcAUZYAWJYAU5cD8N8D6t0ATpUD7d4RbawCqLwCxcoCtcED4dglicwBkLABaZ8Biq4CvscBeKcsk9YMZqUpj9IDy8wGYZ8CorgD3NUbersYdrYD1NEAY54BcaMBfKgBmbQCr78Bl7QBeqcD3tYD0NABgqsASZMfgcF6GED4AAAJ2klEQVR4nO2dC3eiOBSAsYEQVKgPKr7RCj7a6vj/f93mCQkG65k5s8XhfrtzdhRE+Hpzc/OYWccBAAAAAAAAAAAAAAAAbCD003fwTHQHu0Ha/em7eBbQcvVCuUKIPQRaLl4415++k6eA61rsriDsIYSuZbf7zoRBDvsG0RiXNHVxYW8g7C5o+cKii2d6IQyS/h1kY5SOEBf2s3fUaExdIOwbqrqgSd5F5K7UsANJvxaui3aN5rtdaJI1DGRVPzDfhhxmh+laDejAcQHCHkBW9fw/g66jJzFokrfwqp6mepTy8n55fXt7L6RB0q+i9YypTGMskylFEGEGXZ67ZN2F0lUprDgDhJVwXWWZyt3sloMrCzl1DiT9gooux1nxloi6b1Rb8S5EmKJa1dPUv2CJCw2MJA9Jn9O9GQRRXyuLL4gwRpdKeVkZY0bWQbJSoksT2LseT91d64UZPaN6j3p6W6bpO8tqxtmo7cKErrQyX8MCbLFgZdhiYOarlkcYb4yLqq5yPc0irM1Jv0YX48ribseHRjZh/8/9NQxLqi+PvbEajA+NoEkK7LlLHWS+EN8XUG2SLU36oqqv0SV9OUpY10nLM1sZYXdyFz8sfMnpncF1tVhdU3N6p1WLIFJX/XHpSwoT7IrpnbZFGBKpvv6Ewpea3lmY0zu7bz7/j7G8k+o5pS/+W6qGl/vl9M6uTXUYS0B3dem+2HRF5S15iTvt+d+CPfpdXXp7VLMUzJA2/OZn/N3bbAzsWZd3G9NjvpZ1H//H4NnnrjCzPbLpHdRd6QHFJjEWf/k2m0NqqdsN9Hx/Zeu4ywFL++UJbLfm7i/fZYNQy7J16MmdFxSLF2OOn+l6/+t32Rx4GVpd+NfQfakFtkXROyKuq1UFvlzHrjtcKR52byt9uZsebN1OYGSbrCkwfdFk3+0i/Zg5sd8KrJM1ioovg2srdandl3ZhYr7Q+rH25S6FTPq3WtCSNbmFrQNsYaovqUn6fPbixTpl08pUXyJKhWqE8RXv1co2A9HOVF9iE8Zi6Cp3zlUqtLbrksLMHMY8qQG22fTeWpy7FLdJv26/Ceji3CT9Yj/Tzoivlpapt1QrfcT3y9GSfqXvl0Ogq8BM+rycuO7eV8YEDujSqCT9q9ptUk7gQO4yqAjjO030fWGgy0TWYeplN91d3wdtn5G4R7VwRdoEDqR6G9ahEedN3wsAKOqEcV2Qu26xCwNdtZhJnwOp/h43EQap/j5VYZDqv4ELKwxB7voeLcJA1wMUSR9y12PIHAa6HoYJu64g1T+K+hPckLse5bp4WazqNgQAN3TT5dIBXQAAAAAAAAAAAAAAAAAAAAAAAAAAcBDyEPw/HB/D65E82c+TxAlIVRnu4Z7+nlfrFNEzvYe+j56Itc+h+ms2EETyy+y8jcN+HGejY06MZ8aXdTZLire8/DPB9qdD+SgbXcgDX5iPs/WkONFz9vP0Mc8NAPWSWei7bkfg+p1REpRC8LTjum6YyHd6x77vz25ikF8oD+mZ7hRbjpknBjH9Pv8ohXnJl+/H+ycR5uGZr1wVysZlA4y+2FF/KB7OO/BXp57lSmTssw+fg+++kmzYiZ2t+AvFEM7oNd3Q+jNoHGS+rdjixs5Fk4te+RszYYgMuZPMlm96a36lMPr2O8fiRBGzyOH2/OQZfJFLWDZEt2iUHX+kjARnHlGy8ZATf7jMthNHuPRHttgzwBMhXV4kF74+n6BBoiSWitxwPdxsTllfvi6yCz6wrHTOxSsy48djazDkGct03yciRNb0xP5FnOjNha/Jt3nv54nWUk9/QwsJSjTPfPHOlwohkmxOR9U87/pC3vG0SR55bDw5Dfcq3T+PL9EwaHDFiWpEWCl0pypOvCAq0v9dX7SrjbSe1SPSAPIwNhMeIlFQXP5pfCGyFbEU60FBRAdQ3L/nTI8H0Xkh8kv6cqLgts5CweU4VWIQORwv7BI4SKYfH9Mk0Npp7/M4ccRrEu2Fr+mvqNfslI8PMrwm+rPji5B4Eb5QknXc/ok9HC0zt6+i+cbx9litWhGeddzOWrZjMqapcERDbnoOaQXXec2mRewFJ3psm7OX5OMci+8L469Zs/tI2a9rxQMnOLGyc42QdpLL7JG1rxdpx0qEeVPeP574296hz4OUflz1KJ2T/B5vz7vcGWEZwdXKGX/b5DaJnEzc5Yf54AhPRuujaj3RF39YZiEPjRptXSkcesJsxutV8sFrhtFMU+wPZREn6tWYBlhv7OvX9Js8jkT7vrjJmyO4V466IyGHVVXEKG1lIJUEer1KhrLbYL/Ux/pz/lMQYjuvtPVJdeqSYc3ItBHIjqkT3/2hRv3Cl7c/h0Jx5zXenqpzP1ZfVEJ8Pssqzx3x2NN80eYey0v2w+260YNIkW/oQ5RxgomicKj5cjwvH4n+cZ6nN+O9Gl+b3PPSmfh9zONH94VIehG3ccxz3GRdqvoqfXn5dCih/b9Mvbov2tup+ssSk3ZfmwghWoCJ1Bfuq760+qvpA275SIUvlMe+y/9h/77K7s/wdbdetflyMzH6lp5feQKr8dXkvpEhurDSV6WveuX10R/6Un0vOfJrizHjk/rClfzVG5kzO+IB/sxXX1a9auQ1fWJf3qd4hq3sxGUMKNwN9/hnvkJRQfwTvlT95arCAB+3cRyGcQi+bKB82zHvlEQkz3Pn0gdfNmSn5VZmRPEBfFnBMoF1DsateuDLDsJiKsXd5nphjT/Blx1ylOO6TBvdYDKBfF9DIGcc3PiCetjDdPyYX9aikboftvpLrA9xX4+MHx/w5aRqPMQ2BvxPD/6beLKkoLebjSfT6XQ4CovV24vVl+gipr+iNKlMH/+mL7n+6I5+RUGCHthN8JMQOfnMbtin6CuQYp3a9IU/5Mlh3/dDs1X+ri8k671+SG+gOmnbNLQFWx23M5Ztw1zfRnvtpMqMofQVC18b4WsvroInYnjEfckgVbrxWbuDOG94k8T7tVs15nbOB6Ui2nI1cv+EE2TlyRVfxv4JKSiWWQ6LGliEm+xm5P4JNe4XfDXdl+ORj6yvL2S44ewSFJ2V3DFxkBWHt1cr4rRNzo35PY8vN/miW0X7sFNMqLIkxXoWdyuO5Xy9Y6xsB8VA33WHDW+PDpviDA7DjO1aYnyNP1J9qRB5I5rVyiURnMz6bKeF/zrbVyoAsvFdvurDX0xohsuKaPHmYblpiVYsvl+uSqHe5svnX55Nmq+L4ZHgV5ocLkkeRb2KBRTkB6I9BupF+f6SpJbVVYIPebGbCQf0hbbaHc33xc+BkM8k0j5OIi+Z7vMgeIIarAB5dfsGq5PPyKtZIkFmAzVP0l/eXrL2mgAAAAAAAAAAAAAAAAAAAADwFPwHLzfAjriaeGgAAAAASUVORK5CYII=)
